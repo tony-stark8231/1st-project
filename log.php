@@ -121,7 +121,7 @@ input[type="text"],input[type="password"]{
   }
 }
     </style>
-    <title> Login Form for mahesh stores</title>
+    <title>Login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" a href="css\style.css">
 	<link rel="stylesheet" a href="css\font-awesome.min.css">
