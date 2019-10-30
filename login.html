@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+        
+    <style>
+        body{
+	margin: 0 auto;
+	background-image: url("bg1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}
+
+.container{
+	width: 500px;
+	height: 550px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(44, 62, 80,0.7);
+	margin-top: 160px;
+}
+
+.container img{
+	width: 150px;
+	height: 150px;
+	margin-top: -60px;
+}
+
+input[type="text"],input[type="password"]{
+	margin-top: 30px;
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 40px;
+}
+
+.form-input::before{
+	content: "\f007";
+	font-family: "FontAwesome";
+	padding-left: 07px;
+	padding-top: 40px;
+	position: absolute;
+	font-size: 35px;
+	color: #2980b9; 
+}
+
+.form-input:nth-child(2)::before{
+	content: "\f023";
+}
+
+.btn-login{
+	padding: 15px 25px;
+	border: none;
+	background-color: #27ae60;
+	color: #fff;
+}
+.btn-login:hover {
+  opacity: 1;
+}
+.icon {
+  padding: 15px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+    </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <title> Login Form for mahesh stores</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" a href="css\style.css">
+	<link rel="stylesheet" a href="css\font-awesome.min.css">
+</head>
+<body>
+   
+	<div class="container">
+    <img src="mahesh.png"/>
+    <font color = "white">
+    <h1>MAHESH STORES</h1>
+    <div align="right">
+            <b><I><h2>..........................of the students<br>..........................by the students<br>..........................for the students</h2>
+                </I></b></div>
+            </font>
+		<form method="POST" action="log.php">
+			<div class="form-input">
+                <i class="fa fa-user icon"></i>
+				<input type="text" name="text" placeholder="Enter the User Name"/>	
+			</div>
+			<div class="form-input">
+                <i class="fa fa-key icon"></i>
+				<input type="password" name="password" placeholder="password"/>
+			</div>
+			<input type="submit" type="submit" value="LOGIN" class="btn-login"/>
+		</form>
+	</div>
+</body>
+</html>
